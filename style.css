@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color:royalblue ; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1701534008693-0eee0632d47a?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    /* background-color: red; */
+    /* background-size: cover; */
+}
+
+#container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.419);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    /* background-color: red; */
+    backdrop-filter: blur(10px);
+}
+
+h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.joke {
+    font-size: 1.2em;
+    color: #040404;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
